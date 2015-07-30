@@ -18,8 +18,8 @@ body a{
 	-ms-transition:0.5s all;
 }
 h1,h2,h3,h4,h5,h6{
-	margin:0;			   
-}	
+	margin:0;
+}
 p{
 	margin:0;
 }
@@ -28,6 +28,10 @@ ul{
 	padding:0;
 }
 /*--header--*/
+#section-0{
+	margin-top: -2em;
+	width: 22em;
+}
 /*--header-top--*/
 .header-top{
 background:#555;
@@ -52,6 +56,7 @@ background: #757575;
 }
 .logo{
 	float:left;
+	height: 1em;
 }
 .top-nav ul{
 float:right;
@@ -153,7 +158,7 @@ border:1px solid #60B0E6;
  	position: relative;
 	float: left;
 	width: 100%;
-	
+
 }
 .callbacks {
   position: relative;
@@ -316,7 +321,7 @@ border:1px solid #60B0E6;
 display:inline-block;
 color:#fff;
 padding:0.5em 2em;
-background:rgba(255, 255, 255, 0.32);
+background:rgba(168, 168, 168, 0.32);
 text-decoration:none;
 }
 .header-info h2 a:hover{
@@ -556,7 +561,7 @@ ul#filters {
 div#portfoliolist {
 	padding: 0;
 	margin: 1% 0 0 0;
-}	
+}
 .portfolio-wrapper {
 	overflow:hidden;
 	position: relative !important;
@@ -670,7 +675,7 @@ color:#fff;
 font-size: 1.5em;
 margin-top: 39%;
 }
-h6.b-animate.b-from-left.b-delay03 
+h6.b-animate.b-from-left.b-delay03
 {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 400;
@@ -981,7 +986,7 @@ margin-left: 1em;
 	padding:0.7em;
 	width:90%;
 	margin:1.5em 0 0 1.5em;
-	
+
 }
 .fotter-right form input[type="submit"]{
 color:#fff;
