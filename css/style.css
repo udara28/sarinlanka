@@ -321,7 +321,7 @@ border:1px solid #60B0E6;
 display:inline-block;
 color:#fff;
 padding:0.5em 2em;
-background:rgba(168, 168, 168, 0.32);
+background:rgba(168, 168, 168	, 0.32);
 text-decoration:none;
 }
 .header-info h2 a:hover{
@@ -849,21 +849,28 @@ text-align: left;
 font-size:1.65em;
 color:#282A2C;
 }
-.address h5 span{
+
+.contact h5 {
+	text-align: left;
+	margin-left: 5em;
+	font-size: 1.5em;
+}
+
+.contact h5 span{
 background: url("../images/contact-img.png") no-repeat 0 0;
 width: 25px;
-height: 28px;
+height: 34px;
 display: inline-block;
 vertical-align: middle;
 margin-right: 1.2em;
 }
-.address h5 span.img1{
+.contact h5 span.img1{
 background-position:0px 0px;
 }
-.address h5 span.img2{
+.contact h5 span.img2{
 background-position:0px -33px;
 }
-.address h5 span.img3{
+.contact h5 span.img3{
 background-position:0px -68px;
 }
 .address h5{
